@@ -1,0 +1,46 @@
+{
+  "name": "night-owl",
+  "version": "1.1.0",
+  "engines": {
+    "node": "11.2.0"
+  },
+  "private": true,
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.18.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.2.3",
+    "mongoose": "^5.5.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "2.1.8",
+    "redis": "^2.8.0",
+    "request": "^2.88.0",
+    "tachyons": "^4.11.1",
+    "yelp-fusion": "^2.2.1"
+  },
+  "scripts": {
+    "start:dev": "node server.js",
+    "start:prod": "node server.js & yarn client",
+    "start": "node server.js",
+    "client": "cd client && yarn start",
+    "postinstall": "cd client && yarn install",
+    "seed": "node scripts/seedDB.js",
+    "build": "cd client && yarn build",
+    "heroku-postbuild": "yarn build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}

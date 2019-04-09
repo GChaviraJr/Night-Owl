@@ -1,0 +1,24 @@
+{
+  "name": "mern",
+  "version": "1.1.0",
+  "private": true,
+  "proxy": "http://localhost:3001/",
+  "author": "Lupe Chavira and Jonathan Cruz",
+  "license": "BSD 2-Clause License",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-particles-js": "^2.5.1",
+    "react-tilt": "^0.1.4",
+    "react-transition-group": "^2.9.0",
+    "reactstrap": "^8.0.0",
+    "tachyons": "^4.11.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  }
+}

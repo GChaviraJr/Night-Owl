@@ -1,0 +1,5 @@
+input:-webkit-autofill {
+    border: 1px solid white;
+    background-color: black;
+    -webkit-text-fill-color: black;
+  }
