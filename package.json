@@ -1,9 +1,6 @@
 {
   "name": "night-owl",
   "version": "1.1.0",
-  "engines": {
-    "node": "11.2.0"
-  },
   "private": true,
   "main": "server.js",
   "dependencies": {
