@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import Particles from 'react-particles-js';
-import Navigation from '../../../project3/client/src/components/Navigation/Navigation'
-import Signin from '../../../project3/client/src/pages/Signin/Signin';
-import Register from '../../../project3/client/src/pages/Register/Register';
-import Home from '../../../project3/client/src/pages/Home/Home';
-import Profile from '../../../project3/client/src/components/Profile/Profile';
-import Modal from '../../../project3/client/src/components/Portals/Modal/Modal';
+import Navigation from './components/Navigation/Navigation'
+import Signin from './pages/Signin/Signin';
+import Register from './pages/Register/Register';
+import Home from './pages/Home/Home';
+import Profile from './components/Profile/Profile';
+import Modal from './components/Portals/Modal/Modal';
 import './App.css'
 
 

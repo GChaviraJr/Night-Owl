@@ -1,10 +1,6 @@
 version: '3.3'
 
 services:
-  client:
-    container_name: Front-End
-    image: gchavirajr/night-owl
-    command: yarn client
   nightowl:
     container_name: app
     image: gchavirajr/night-owl
